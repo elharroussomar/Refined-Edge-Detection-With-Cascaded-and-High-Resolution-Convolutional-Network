@@ -1,0 +1,6 @@
+train python main.py --model pidinet --config carv4 --sa --dil --resume --iter-size 24 -j 4 --gpu 0 --epochs 11 --lr 0.005 --lr-type multistep --lr-steps 10-16 --wd 1e-4 --savedir ./data/table5_pidinet --datadir ./data/BSDS500 --dataset BSDS
+
+python main.py --model chrnet  --iter-size 24 -j 4 --gpu 0 --epochs 11 --lr 0.005 --lr-type multistep --lr-steps 10-16 --wd 1e-4 --savedir ./data/results --datadir ./data/BSDS500 --dataset BSDS
+
+python main.py --model chrnet -j 4 --gpu 0 --savedir ./data/results --datadir ./data/BSDS500 --dataset BSDS --evaluate ./data/results/save_models/checkpoint_000.pth
+
