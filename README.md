@@ -4,7 +4,7 @@ This repository contains the PyTorch implementation for
 "Refined Edge Detection With Cascaded and High-Resolution Convolutional Network" which is based on the code in https://github.com/zhuoinoulu/pidinet
 
 
-
+<img src="https://github.com/elharroussomar/chrnet/blob/main/Model.jpg" alt="Italian Trulli">
 ## Training, and Generating edge maps
 
 ### Training
