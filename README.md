@@ -1,4 +1,4 @@
-# Refined Edge Detection With Cascaded and High-Resolution Convolutional Network
+# CHRNet: Refined Edge Detection With Cascaded and High-Resolution Convolutional Network
 
 This repository contains the PyTorch implementation for 
 "Refined Edge Detection With Cascaded and High-Resolution Convolutional Network" which is based on the code in https://github.com/zhuoinoulu/pidinet
