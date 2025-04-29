@@ -5,7 +5,7 @@ This repository contains the PyTorch implementation for
 
 
 <img src="https://github.com/elharroussomar/chrnet/blob/main/Model.jpg" alt="Italian Trulli">
-## Training, and Generating edge maps
+
 
 ### Training
 ```
